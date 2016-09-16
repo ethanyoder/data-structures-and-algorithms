@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bubble Sort/Search-Sort Algorithms.iml" filepath="$PROJECT_DIR$/Bubble Sort/Search-Sort Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Search-Sort Algorithms/Search-Sort Algorithms.iml" filepath="$PROJECT_DIR$/Search-Sort Algorithms/Search-Sort Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fall-2016.iml" filepath="$PROJECT_DIR$/.idea/fall-2016.iml" />
     </modules>
   </component>
