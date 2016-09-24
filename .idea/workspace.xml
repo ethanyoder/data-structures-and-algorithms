@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc087405-ff0e-478b-91b1-5c99e0fbabf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data Structure Implementations/Data Structure Implementations.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data Structure Implementations/src/SinglyLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Search-Sort Algorithms/src/QuickSort.java" afterPath="$PROJECT_DIR$/Search-Sort Algorithms/src/QuickSort.java" />
     </list>
     <ignored path="fall-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -650,6 +646,14 @@
       <option name="presentableId" value="Default" />
       <updated>1473815257090</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started on my Singly Linked List implementation.">
+      <created>1474734001389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474734001389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -693,6 +697,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started on my Singly Linked List implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on my Singly Linked List implementation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
