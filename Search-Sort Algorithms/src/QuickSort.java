@@ -9,7 +9,6 @@ public class QuickSort {
 
     public static void quickSortArray(int[] array, int passedPivot) {
         pivot = passedPivot;
-
     }
 
 }
