@@ -29,7 +29,7 @@ public class SinglyLinkedList<E> {
         else {
             Node<E> temp = head;
             head = e;
-            e.setNext(temp);
+            e.setNext();
         }
     }
 
