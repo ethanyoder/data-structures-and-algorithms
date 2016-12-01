@@ -2,7 +2,6 @@
  * Created by Ethan on 10/10/2016.
  * This is a Linked-List based implementation a Queue
  */
-import java.util.*;
 
 public class LinkedQueue<E> {
     private SinglyLinkedList<E> list = new SinglyLinkedList<>();

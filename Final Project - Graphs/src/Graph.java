@@ -1,5 +1,6 @@
 /**
  * Created by Ethan on 11/14/2016.
+ * This is a basic graph implementation (no unique weights or specific directions for edges)
  */
 public class Graph extends WeightedGraph {
 

@@ -1,5 +1,6 @@
 /**
  * Created by Ethan on 11/14/2016.
+ * This is a directed graph implementation (no unique weights)
  */
 public class DirectedGraph extends WeightedDirectedGraph {
 

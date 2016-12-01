@@ -3,9 +3,10 @@
  * This is an implementation of a Graph that has weights and specific directions
  */
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class WeightedDirectedGraph {
-    private double[][] adjacencyMatrix;
+    public double[][] adjacencyMatrix;
     private static int size = 10;
 
     public WeightedDirectedGraph(int size) {
@@ -54,6 +55,7 @@ public class WeightedDirectedGraph {
             throw new IllegalArgumentException("Edge does not exist");
     }
 
+    //this finds the vertices that a given vertice can go to from one hop away
     public ArrayList<Integer> getNeighbors(int vertice) {
         ArrayList<Integer> neighbors = new ArrayList<Integer>();
         for (int i = 0; i < size; i++)
@@ -151,5 +153,24 @@ public class WeightedDirectedGraph {
             }
         }
         return y;
+    }
+
+    public ArrayList<Integer> shortestPathFromTo(int from, int to) {
+        int[] shortestPaths = singleSourceShortestPath(from);
+        ArrayList<Integer> finalPath = new ArrayList<Integer>();
+        finalPath.add(to);
+        int currentIndex = to;
+        boolean atBeginning = false;
+        while (!atBeginning) {
+            if (currentIndex == from) {
+                atBeginning = true;
+            }
+            else {
+                finalPath.add(shortestPaths[currentIndex]);
+                currentIndex = shortestPaths[currentIndex];
+            }
+        }
+        Collections.reverse(finalPath);
+        return finalPath;
     }
 }
